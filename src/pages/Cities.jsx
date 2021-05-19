@@ -20,8 +20,6 @@ function Cities() {
 
   return (
     <div>
-      <h1 classname = "subject">한국 관광지 100선</h1>
-      <p>{"https://korean.visitkorea.or.kr/other/otherService.do?otdid=622bcd99-84fa-11e8-8165-020027310001"}</p>
       <CityList cities={cityState} />
     </div>
   );
