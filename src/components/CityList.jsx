@@ -4,7 +4,7 @@ function CityList(props) {
 
   return (
     <div>
-      <h1>CityList</h1>
+      <h1>Korean City list</h1>
 
       <ul>
         {cities.map((item, index) => {
